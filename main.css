@@ -1,0 +1,92 @@
+body{
+    background: #242424;
+    color: honeydew;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    padding: 0 10px;
+}
+.bg-dark{
+    background: #242424 !important;
+}
+.navbar-light .navbar-brand{
+    color: white;
+}
+.navbar-brand{
+    color:#f0c900 !important;
+}
+a{
+    text-decoration: none;
+}
+h1{
+    color: chocolate;
+}
+h2{
+    color: chocolate;
+    text-decoration: none;
+    text-transform: none;
+    text-shadow: #000;
+    font-family: 'News Cycle', sans-serif;
+}
+p{
+    color: honeydew;
+    font-weight: 100;
+    margin-top: 0;
+}
+
+a:hover, h1:hover{
+    color: brown;
+}
+.article img{
+    width: 100%;
+    
+}
+.header{
+    background:#242424;
+    height: 60px;
+    position: relative;
+}
+.logo{
+    background: transparent;
+    float: left;
+    padding: 1px;
+    margin: 1px;
+}
+.header .title{
+    position: absolute;
+    left: 45px;
+    top: 17px;
+    color:#f0c900;
+}
+
+
+@media (max-width: 600px) {
+    h2 {
+      font-size: 1.2rem !important;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    h2 {
+      font-size: 1.2rem;
+    }
+    p{
+        font-size: 0.8rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    h2 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 1200px) {
+    h2 {
+      font-size: 2rem;
+    }
+  }
+  
